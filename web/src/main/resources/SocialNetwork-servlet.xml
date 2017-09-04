@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:security="http://www.springframework.org/schema/security"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/security
+	   http://www.springframework.org/schema/security/spring-security.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <import resource="classpath:spring-service.xml"/>
+
+    <context:component-scan base-package="com.getjavajob.bezfamilnyydg"/>
+
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+    </bean>
+
+    <mvc:annotation-driven/>
+
+    <security:http auto-config="true">
+        <security:intercept-url pattern="/" access="hasAnyRole('ROLE_USER', 'ROLE_ADMIN')"/>
+
+        <security:form-login login-page="/login"
+                             default-target-url="/PersonalPage"
+                             always-use-default-target="true"
+                             authentication-failure-url="/login?error"
+                             username-parameter="email"
+                             password-parameter="password"/>
+
+        <security:logout logout-success-url="/login?logout" delete-cookies="JSESSIONID, remember-me"/>
+
+        <security:csrf disabled="true"/>
+
+        <!-- enable remember me -->
+        <security:remember-me
+                token-validity-seconds="1209600"
+                remember-me-parameter="remember-me"
+                data-source-ref="dataSource"/>
+    </security:http>
+
+</beans>

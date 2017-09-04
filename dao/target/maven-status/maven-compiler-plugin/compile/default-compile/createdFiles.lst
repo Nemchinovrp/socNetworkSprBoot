@@ -1,0 +1,4 @@
+com\getjavajob\bezfamilnyydg\dao\RequestToFriendsLightRepository.class
+com\getjavajob\bezfamilnyydg\dao\FriendshipLightRepository.class
+com\getjavajob\bezfamilnyydg\dao\RoleRepository.class
+com\getjavajob\bezfamilnyydg\dao\AccountRepository.class

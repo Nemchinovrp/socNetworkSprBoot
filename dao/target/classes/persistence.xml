@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+             http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+
+    <persistence-unit name="default">
+        <class>com.getjavajob.bezfamilnyydg.models.Account</class>
+        <class>com.getjavajob.bezfamilnyydg.models.PersonalPhone</class>
+        <class>com.getjavajob.bezfamilnyydg.models.WorkPhone</class>
+        <class>com.getjavajob.bezfamilnyydg.models.RequestToFriends</class>
+        <class>com.getjavajob.bezfamilnyydg.models.Friendship</class>
+        <class>com.getjavajob.bezfamilnyydg.models.RequestToFriendsLight</class>
+        <class>com.getjavajob.bezfamilnyydg.models.FriendshipLight</class>
+        <class>com.getjavajob.bezfamilnyydg.models.Role</class>
+    </persistence-unit>
+
+</persistence>

@@ -1,0 +1,20 @@
+.header-of-site {
+    background: rgb(8, 62, 87);
+}
+
+h1 {
+    color: rgb(242, 242, 242);
+}
+
+h5 {
+    color: rgb(242, 242, 242);
+    font-size: 20px;
+}
+
+a {
+    color: rgb(92, 184, 92);
+}
+
+#accountSearchInput:focus {
+    border: 1px solid rgb(92, 184, 92);
+}

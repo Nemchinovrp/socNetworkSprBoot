@@ -1,0 +1,12 @@
+com\getjavajob\bezfamilnyydg\models\RequestToFriendsLight.class
+com\getjavajob\bezfamilnyydg\models\Utils\AccFromRequestCame.class
+com\getjavajob\bezfamilnyydg\models\Utils\AccToRequestCame.class
+com\getjavajob\bezfamilnyydg\models\Role.class
+com\getjavajob\bezfamilnyydg\models\WorkPhone.class
+com\getjavajob\bezfamilnyydg\models\RequestToFriends.class
+com\getjavajob\bezfamilnyydg\models\Utils\Checker.class
+com\getjavajob\bezfamilnyydg\models\FriendshipLight.class
+com\getjavajob\bezfamilnyydg\models\Account.class
+com\getjavajob\bezfamilnyydg\models\Friendship.class
+com\getjavajob\bezfamilnyydg\models\PersonalPhone.class
+com\getjavajob\bezfamilnyydg\models\DTOAccount.class

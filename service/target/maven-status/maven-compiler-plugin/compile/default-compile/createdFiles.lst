@@ -1,0 +1,6 @@
+com\getjavajob\bezfamilnyydg\service\SecurityServiceImpl.class
+com\getjavajob\bezfamilnyydg\service\interfaces\SecurityService.class
+com\getjavajob\bezfamilnyydg\service\interfaces\AccountService.class
+com\getjavajob\bezfamilnyydg\service\validator\UserValidator.class
+com\getjavajob\bezfamilnyydg\service\AccountService.class
+com\getjavajob\bezfamilnyydg\service\UserDetailsServiceImpl.class

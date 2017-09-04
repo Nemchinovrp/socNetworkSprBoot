@@ -1,0 +1,4 @@
+com\getjavajob\bezfamilnyydg\dao\RequestToFriendsRepositoryTest.class
+com\getjavajob\bezfamilnyydg\dao\AccountRepositoryTest.class
+com\getjavajob\bezfamilnyydg\dao\FriendshipLightRepositoryTest.class
+com\getjavajob\bezfamilnyydg\dao\utilsForTestDAO\UtilsForTest.class
